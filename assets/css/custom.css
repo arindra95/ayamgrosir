@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    height: 100%;
+    padding: 10px;
+    background: #fafafa;
+    font-family: open sans,sans-serif;
+    letter-spacing: 1px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: avenir next;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+table {
+  table-layout:fixed;
+}
+table td {
+  word-wrap: break-word;
+  max-width: 900px;
+
+}
+
+
+.form-control {
+    padding: 5px 10px;
+    height: 32px;
+    background: #fafafa;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    min-height: 300px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.list .alert {
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #333;
+}
+
+
+
+.list li {
+    border: solid 2px #eee;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.list li p {
+    margin: 5px 0 0;
+    border-top: solid 2px #eee;
+    padding: 10px 0;
+}
+.list .btn-primary {
+    margin-right: 5px;
+}
+
+.list .btn-danger {
+    margin-left: 5px;
+}
+
+.btn-group-xs > .btn, .btn-xs {
+  padding: .25rem .4rem;
+  font-size: .875rem;
+  line-height: .5;
+  border-radius: .2rem;
+}
+
+.text-succes{
+   color:  #8a6d3b;
+}
+
+
+.form-control:focus {
+    border: solid 1px #685AB4;
+    box-shadow: none;
+    background: #fff;
+}
+
+.btn,.form-control {
+    border-radius: 2px
+}
+
+.btn-main {
+    background: #685AB4;
+    color: #fafafa;
+}
+
+.btn-main:hover {
+    background: #685AB4;
+    color: #fff;
+}
+
+.login-box{
+    border: solid 2px #685AB4;
+    padding: 40px;
+
+    border-radius: 3px;
+    margin-top: 10em;
+}
+
+.login-box .btn-main{
+    padding: 5px 30px;
+}
+.box1 {
+    border: solid 1px #ccc;
+    border-radius: 0;
+    padding: 20px 10px;
+    margin: 1em 0
+}
+
+.box-tagihan {
+    border: solid 1px #ccc;
+    border-radius: 0;
+    padding: 55px 50px;
+    margin: 1em 0;
+    background: #ffffe0;
+}
+
+.toolbar {
+    margin-bottom: 2em;
+    padding: 5px 0;
+}
+
+table.dataTable td{
+    padding-bottom: 5px ;
+    padding-top: 5px;
+}
+
+table.dataTable td a{
+   margin-bottom: 0px;
+}
+
+table.dataTable th{
+    
+}
+
+.form-horizontal .col-form-labell{
+    text-align: right;
+}
+
+.box1 {
+    border: solid 1px #ccc;
+    border-radius: 0;
+    padding: 20px 10px;
+    margin: 1em 0
+}
+
+
+#message {
+    display: none
+}
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #eeee !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+} 
+
+.main-footer {
+    background: #685AB4;
+    color: #fafafa;
+    height: 35px;
+    line-height: 30px;
+    border: solid 2px #685AB4;
+    text-align: center;
+}
+
+
+.navbar-nav > li{
+   margin-left:10px;
+  margin-right:20px;
+}
+
+nav .navbar-nav li a{
+    padding-right: 20px;
+}
+
+.alert-success {
+    background: 0 0;
+    color: green;
+    border: solid 1px green;
+    border-left: solid 10px green;
+    padding: 5px
+}
+.alert-error {
+    background: 0 0;
+    color: red;
+    border: solid 1px red;
+    border-left: solid 10px red;
+    padding: 5px
+}
+
+#ogin-box{
+    border: solid 2px #685AB4;
+    padding: 40px;
+
+    border-radius: 3px;
+    margin-top: 10em;
+}
+
+#login-box .btn-main{
+    background: #685AB4;    
+    padding: 5px 30px;
+}
+
+#loading {
+    background: #000;
+    opacity: .7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    display: none
+}
+
+.loader {
+    opacity: 1;
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 15px solid #fff;
+    border-right: 15px solid red;
+    border-bottom: 15px solid #fff;
+    border-left: 15px solid red;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+    position: absolute;
+    left: 50%;
+    top: 40%
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}

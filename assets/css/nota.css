@@ -1,0 +1,74 @@
+body {
+	font-family: verdana;
+	letter-spacing: .5px;
+	font-size: 12px;
+	margin: 0;
+	padding: 10px;
+}
+
+button {
+	background: #eee;
+	border: solid 1px #eee;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+button:hover {
+	background: #fafafa;
+	border: solid 1px #333;
+	padding: 5px 10px;
+}
+
+.kop-toko {
+	border-bottom: solid 3px #777;
+	text-align: center;
+}
+
+.kop-toko h1 {
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
+thead tr th {
+	border-bottom: solid 1px #777;
+	border-top: solid 1px #777;
+	padding: 10px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+tbody tr td,
+tfoot tr td {
+	border-bottom: solid 1px #777;
+	padding: 5px;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #eee;
+}
+
+tfoot tr {
+	background: #ccc;
+	font-weight: bold;
+}
+
+caption {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 1em 0;
+}
+
+.info td {
+	background: #fff;
+	padding: 10px 5px;
+}
+
+@media print{
+	button {
+		display: none;
+	}
+}
